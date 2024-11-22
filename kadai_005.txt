@@ -1,0 +1,38 @@
+tsubasa@Mac git_challenge % history
+  289  echo "Hello,World">hello_world.txt
+  290  git add hello_world.txt
+  291  git commit -m "こんにちわ、世界！\n\n”\n ”
+  292  git commit -m "こんにちは、世界！”
+  293  git commit -m "こんにちは、世界！”
+  294  git commit -m "こんにちは、世界！"
+  295  git status
+  296  git log
+  297  cat
+  298  cat 
+  299  cat 
+  300  history
+  301  mkdir kadai_005
+  302  cd kadai_005
+  303  touch kadai_005.txt
+  304  history
+tsubasa@Mac git_challenge % 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
