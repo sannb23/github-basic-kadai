@@ -1,24 +1,24 @@
-tsubasa@Mac git_challenge % history
-  289  echo "Hello,World">hello_world.txt
-  290  git add hello_world.txt
-  291  git commit -m "こんにちわ、世界！\n\n”\n ”
-  292  git commit -m "こんにちは、世界！”
-  293  git commit -m "こんにちは、世界！”
-  294  git commit -m "こんにちは、世界！"
-  295  git status
-  296  git log
-  297  cat
-  298  cat 
-  299  cat 
-  300  history
-  301  mkdir kadai_005
-  302  cd kadai_005
-  303  touch kadai_005.txt
-  304  history
+tsubasa@Mac ~ % mkdir git_challenge
+tsubasa@Mac ~ % cd git_challengr
+cd: no such file or directory: git_challengr
+tsubasa@Mac ~ % cd git_challenge
+tsubasa@Mac git_challenge % git init
+Initialized empty Git repository in /Users/tsubasa/git_challenge/.git/
+tsubasa@Mac git_challenge % echo 'Hellow,World!' >hellow_world.txt
+tsubasa@Mac git_challenge % git add hellow_world.txt
+tsubasa@Mac git_challenge % git commit -m 'Hellow,World!'
+[main (root-commit) a0bf891] Hellow,World!
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hellow_world.txt
+tsubasa@Mac git_challenge % echo 'こんにちは、世界！' >>hellow_world.txt
+tsubasa@Mac git_challenge % git add hellow_world.txt
+tsubasa@Mac git_challenge % git commit -m 'こんにちは、世界！'
+[main 8770172] こんにちは、世界！
+ 1 file changed, 1 insertion(+)
+tsubasa@Mac git_challenge % git log --oneline
+8770172 (HEAD -> main) こんにちは、世界！
+a0bf891 Hellow,World!
 tsubasa@Mac git_challenge % 
-
-
-
 
 
 
